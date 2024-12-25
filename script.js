@@ -111,8 +111,6 @@ const start = () => {
     cols = Math.round(canvas.width / sand);
     arr = createArray(rows, cols);
     mainSandLoop();
-    ctx.fillStyle = 'hsl(90,100%,50%)'
-    ctx.fillRect(70 * sand, 80 * sand, sand, sand)
 }
 
 
